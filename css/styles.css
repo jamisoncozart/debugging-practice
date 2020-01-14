@@ -1,11 +1,17 @@
-.green-background {
-    background-color: green;
+.dark-background {
+    background-color:black;
+    color: white;
   }
   
-  .yellow-background {
-    background-color: yellow;
-  }
-  
-  .red-background {
-    background-color: red;
-  }
+.light-background{
+    background-color: white;
+    color: black;
+}
+.text-box{
+    display: none;
+    border: 15px solid green;
+    
+}
+.text-noBox{
+ 
+}

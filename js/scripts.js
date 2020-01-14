@@ -1,16 +1,12 @@
 $(document).ready(function() {
-  $("button#green").click(function() {
+  $("button#darkLight").click(function() {
     $("body").removeClass();
-    $("body").addClass("green-background");
+    $("body").addClass("dark-background");
+    //$(".dark-background").toggle();
   });
 
-  $("button#yellow").click(function() {
-    $("body").removeClass();
-    $("body").addClass("yellow-background");
-  });
-
-  $("button#red").click(function() {
-    $("body").removeClass();
-    $("body").addClass("red-background");
+  $("p").click(function(){
+    $(".text-box").toggle();
+    $(".text-noBox").toggle();
   });
 });
